@@ -54,10 +54,10 @@
 }
 .home .hero .medsos a {
   color: rgb(131, 183, 171);
-  margin-right: 10px;
+  margin-right: 5px;
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: 27px;
 }
 .home .hero .medsos a:hover {
   color: rgb(234, 97, 61);
