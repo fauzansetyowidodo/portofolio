@@ -1,3 +1,64 @@
-.container h1 {
-  color: red;
+* {
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+  background-color: rgb(235, 234, 232);
+}
+.navbar a {
+  color: rgb(234, 97, 61);
+}
+.navbar a:hover {
+  color: rgb(234, 97, 61);
+}
+.navbar li {
+  margin-right: 15px;
+}
+.navbar li a {
+  color: rgb(234, 97, 61);
+  border-radius: 5px;
+}
+.navbar li a:hover {
+  color: rgb(235, 234, 232);
+  background-color: rgb(234, 97, 61);
+  border-radius: 5px;
+}
+
+.home {
+  background-color: rgb(235, 234, 232);
+  height: 100vh;
+}
+.home .hero {
+  height: 100vh;
+}
+.home .hero h1 {
+  color: rgb(131, 183, 171);
+  font-weight: 500;
+  font-size: 5vw;
+}
+.home .hero h1 span {
+  color: rgb(235, 234, 232);
+  background-color: rgb(159, 174, 207);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+.home .hero button {
+  width: 95%;
+  color: rgb(234, 97, 61);
+  border-color: rgb(234, 97, 61);
+}
+.home .hero button:hover {
+  color: rgb(235, 234, 232);
+  background-color: rgb(234, 97, 61);
+}
+.home .hero .medsos a {
+  color: rgb(131, 183, 171);
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+}
+.home .hero .medsos a:hover {
+  color: rgb(234, 97, 61);
 }/*# sourceMappingURL=landingpage.css.map */

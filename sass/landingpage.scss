@@ -1,5 +1,66 @@
-.container {
-    h1 {
-        color: red;
+* {
+    font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+    background-color: rgb(235, 234, 232);
+    a {
+        color: rgb(234, 97, 61);
+    }
+    a:hover {
+        color: rgb(234, 97, 61);
+    }
+    li {
+        margin-right: 15px;
+        a {
+            color: rgb(234, 97, 61);
+            border-radius: 5px;
+        }
+        a:hover {
+            color: rgb(235, 234, 232);
+            background-color: rgb(234, 97, 61);
+            border-radius: 5px;
+        }
+    }
+}
+
+.home {
+    background-color: rgb(235, 234, 232);
+    height: 100vh;
+    .hero {
+        height: 100vh;
+        h1 {
+            color: rgb(131, 183, 171);
+            font-weight: 500;
+            font-size: 5vw;
+            span {
+                color: rgb(235, 234, 232);
+                background-color: rgb(159, 174, 207);
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 5px;
+            }
+        }
+        button {
+            width: 95%;
+            color: rgb(234, 97, 61);
+            border-color: rgb(234, 97, 61);
+        }
+        button:hover {
+            color: rgb(235, 234, 232);
+            background-color: rgb(234, 97, 61);
+        }
+        .medsos {
+            a {
+                color: rgb(131, 183, 171);
+                margin-right: 10px;
+                position: relative;
+                display: inline-block;
+                font-size: 30px;
+            }
+            a:hover {
+                color: rgb(234, 97, 61);
+            }
+        }
     }
 }
